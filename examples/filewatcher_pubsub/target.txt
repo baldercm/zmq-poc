@@ -1,0 +1,7 @@
+This is the watched file, don't delete it!
+
+You can use
+
+touch target.txt
+
+to trigger event publication.

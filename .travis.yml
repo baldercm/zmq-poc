@@ -1,0 +1,11 @@
+language: node_js
+
+node_js:
+  - 'iojs-v2.0.0'
+
+addons:
+  apt:
+    packages:
+    - libzmq3-dev
+
+script: 'make ci-test'

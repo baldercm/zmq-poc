@@ -1,0 +1,10 @@
+{
+  "ext": "js coffee json",
+  "ignore": [
+    ".git",
+    "coverage",
+    "node_modules",
+    "nodemon.json",
+    "package.json"
+  ]
+}

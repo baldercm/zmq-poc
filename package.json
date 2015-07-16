@@ -1,0 +1,38 @@
+{
+  "name": "@baldercm/zmq-poc",
+  "version": "0.1.0",
+  "description": "ØMQ PoC on node.js",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "make test",
+    "test-ci": "make test-ci",
+    "coverage": "make coverage"
+  },
+  "dependencies": {
+    "coffee-script": "^1.9.2",
+    "moment": "^2.10.3",
+    "zmq": "^2.12.0"
+  },
+  "devDependencies": {
+    "chai": "^3.0.0",
+    "chai-as-promised": "^5.0.0",
+    "istanbul": "^0.3.13",
+    "jshint": "^2.7.0",
+    "mocha": "^2.2.4",
+    "proxyquire": "^1.4.0",
+    "sinon": "^1.14.1",
+    "sinon-chai": "^2.7.0",
+    "supertest": "^1.0.1",
+    "xunit-file": "0.0.6"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/baldercm/zmq-poc.git"
+  },
+  "author": {
+    "name": "Bálder Carraté",
+    "email": "baldercm@gmail.com"
+  },
+  "contributors": []
+}

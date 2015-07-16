@@ -1,0 +1,16 @@
+coverage/
+node_modules/
+report/
+*.log
+*.log.*
+tags
+
+# WebStorm
+.idea/
+*.iml
+
+# Sublime
+*.sublime-workspace
+
+# MacOS
+.DS_Store/

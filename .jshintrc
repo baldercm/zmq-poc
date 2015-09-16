@@ -34,6 +34,9 @@
     "context",
     "ObjectId"
   ],
+  "globals": {
+    "Promise": true // FIX W079 for Bluebird Promise
+  },
 
   // Development
 

@@ -10,6 +10,7 @@
     "coverage": "make coverage"
   },
   "dependencies": {
+    "bluebird": "^2.10.0",
     "coffee-script": "^1.9.2",
     "moment": "^2.10.3",
     "zmq": "^2.12.0"
